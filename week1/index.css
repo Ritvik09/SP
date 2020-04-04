@@ -1,0 +1,41 @@
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	text-decoration:none;
+	color:white;
+}
+
+body {
+	background-image:url("https://i.pinimg.com/originals/42/9a/3e/429a3ef2bde7abe8696546b1e08f21ef.jpg");
+	background-size:auto;
+	background-repeat:no-repeat;	
+}
+
+.container {
+	text-align:center;
+}
+
+.container h1 {
+	font-family:"Informal Roman";
+	font-size:75px;
+}
+
+.container h3 {
+	margin-top:22%;
+	margin-bottom:7%;
+	font-family:"Informal Roman";
+	font-size:55px;
+}
+
+.container a {
+	font-size:30px;
+	font-family:"Times New Roman";
+	border-radius:35px;
+	padding:25px;
+	border:2px solid white;
+}
+
+.container a:hover {
+	opacity:0.5;
+}

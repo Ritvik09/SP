@@ -1,0 +1,149 @@
+/*overall*/
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	text-decoration:none;
+}
+
+body {
+	background-image:linear-gradient(to right, yellow, orange);
+	max-width:100%;
+	height:auto;
+	font-family:"Calisto MT";
+	color:brown;
+}
+/*overall*/
+
+/*header*/
+header {
+	height:95px;
+	width:100%;
+	opacity:0.9;
+	display:block;
+	background-image:url("https://lh3.googleusercontent.com/proxy/gOPCtg051TMoSNOakMkdiacABrYs-zMh84PayykytbOYSSGhhUdsaUU93k__wUV005qktUlVQ_Ml1Dp4RxmnWJEHYjL_0lagWAyhdafSi3TdgK-Bp_8N14B0rGo23roJHVddoabdn6d-ndUJ5AmHH3P1H-FGXV0");
+}
+
+.header-left {
+	float:left;
+	padding-left:30px;
+}
+
+.logo {
+	width:90px;
+	height:90px;
+}
+
+.header-right {
+	float:right;
+	padding-top:27px;
+	padding-right:2%;
+	font-size:20px;
+}
+
+button {
+	font-size:15px;
+	padding:10px;
+	background-color:#ff8c00;
+	border-radius:10px;
+	font-weight:bold;
+	display:inline-block;
+	color:white;
+}
+
+.search {
+	float:right;
+	padding:5px
+}
+
+.header-center {
+	text-align:center;
+	padding-top:10px;
+	font-size:4vw;
+	color:brown;
+	font-family:"Brush Script MT";
+	font-weight:bold; 
+}
+
+hr {
+	height:10px;
+	background-color:brown;
+	width:100%;
+}
+/*header*/
+
+/*navbar*/
+.nav{
+	list-style:none;
+	margin:20px 540px;
+	padding:0;
+	width:525px;
+}
+
+.nav li {
+	display:inline; 
+}
+
+.nav li a {
+	text-decoration:none;
+	padding:10px 0;
+  	width:100px;
+  	background:green;
+  	color:#eee;
+  	float:left;
+  	text-align:center;
+  	border-left:1px solid #fff;
+}
+
+.nav li a:hover {
+	background:#a2b3a1;
+  	color:#000
+}
+/*navbar*/
+
+/*main*/
+.topic {
+	font-style:italic;
+	padding-top:60px;
+	text-align:center;
+	font-size:20px;
+	text-decoration:underline;
+	text-shadow: 2px 2px 8px #FF0000;
+	padding-left:40px;
+}
+
+.main {
+	padding-left:10%;
+	padding-right:10%;
+}
+
+.main h4 {
+	font-size:30px;
+	padding-top:3%;
+	padding-bottom:3%;
+	font-family:"Fantasy";
+}
+
+.main p {
+	padding:20px 0;
+	font-size:20px;
+}
+
+.main span {
+	color:#654321;
+	font-size:50px;
+}
+/*main*/
+
+/*footer*/
+footer {
+	width:100%;
+	background-color:#222;
+	padding:30px 150px; 
+}
+
+.copy {
+	float:right;
+	font-size:20px;
+}
+/*footer*/
